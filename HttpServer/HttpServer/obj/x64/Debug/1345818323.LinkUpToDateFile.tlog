@@ -1,0 +1,1 @@
+cd /home/pami/projects/HttpServer/; g++ -o "/home/pami/projects/HttpServer/bin/x64/Debug/HttpServer.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/pami/projects/HttpServer/obj/x64/Debug/main.o /home/pami/projects/HttpServer/obj/x64/Debug/server.o
